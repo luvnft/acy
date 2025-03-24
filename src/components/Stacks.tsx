@@ -11,27 +11,27 @@ const stacks = [
   },
   {
     name: "🤳 ZATV.",
-    category: "The TikTok of ZA WEEDW3W content.",
+    category: "The ZA TikTok",
     url: "https://www.framer.com",
   },
   {
     name: "🪴 PRODUCTS.",
-    category: "Find all the info of WEEDW3W dispensary partner products.",
+    category: "WEEDW3W dispensary partner products",
     url: "https://products.weedw3w.com",
   },
   {
     name: "🤖 STRAIN.",
-    category: "Ask AI about any strains.",
+    category: "Ask AI about a strain",
     url: "https://strain.weedw3w.com",
   },
   {
     name: "✍️ BLOG.",
-    category: "We create blogs as a WEEDW3W partner service.",
+    category: "WEEDW3W Blogs",
     url: "https://blog.weedw3w.com",
   },
   {
     name: "🎮 NAME. GAME",
-    category: "Calendar",
+    category: "Weed name guessing game",
     url: "https://name.weedw3w.com/",
   },
 ];
