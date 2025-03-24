@@ -1,5 +1,5 @@
 import { IconButton } from "./ui";
-import { cn } from "./ui/utils.ts";
+import { cn } from "./ui/utils";
 import { Lucide } from "./icons";
 
 const projects = [
@@ -41,11 +41,8 @@ export default () => {
               )}
             >
               <div className="flex flex-row items-stretch gap-5 pl-2">
-                <div className="flex items-center justify-center">
-                  <project.icon
-                    size={24}
-                    className="transition duration-300 group-hover:-translate-y-1 text-neutral-10 group-hover:text-neutral-11"
-                  />
+                <div className="flex items-center justify-center w-8 h-8 text-2xl">
+                  {project.icon}
                 </div>
 
                 <div>
@@ -56,9 +53,15 @@ export default () => {
                 </div>
               </div>
 
-              <IconButton as="a" role="button" href={project.url} className="group/icon" target="_blank" aria-label="Open">
+              <IconButton 
+                as="a" 
+                href={project.url} 
+                className="group/icon" 
+                target="_blank" 
+                aria-label={`Open ${project.title}`}
+              >
                 <Lucide.IconExternalLink
-                  aria-label="Open"
+                  aria-label={`Open ${project.title}`}
                   className="transition text-neutral-10 group-hover:text-primary-11 group-focus-visible/icon:text-primary-11"
                 />
               </IconButton>
