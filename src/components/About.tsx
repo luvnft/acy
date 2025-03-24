@@ -1,5 +1,3 @@
-
-Copy
 import { Avatar, Button } from "./ui";
 import { Lucide } from "./icons";
 
