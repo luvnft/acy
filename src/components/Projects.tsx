@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: "🛍️ PPP Dispensary",
-    description: <>Atlantic City <a href="https://what3words.com/porch.descended.ties" target="_blank" rel="noopener noreferrer" className="text-primary-10 hover:text-primary-11 underline">w🌱📍///porch.descended.ties</a></>,
+    description: <>Atlantic City <a href="https://what3words.com/porch.descended.ties" target="_blank" rel="noopener noreferrer" className="text-primary-10 hover:text-primary-11 underline">🌱📍///porch.descended.ties</a></>,
     icon: Lucide.IconImage,
     url: "https://github.com/flamrdevs/astrobuckt",
   },
