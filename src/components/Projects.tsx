@@ -6,19 +6,19 @@ const projects = [
   {
     title: "🛍️ The Joint",
     description: <>Maine <a href="https://w3w.co/open.octagon.partial" target="_blank" rel="noopener noreferrer" className="text-primary-10 hover:text-primary-11 underline">🌱📍///open.octagon.partial</a></>,
-    icon: Lucide.IconImage,
+    icon: "🌞",
     url: "https://thejoint.me",
   },
   {
     title: "🛍️ High Rollers Atlantic City Dispensary",
     description: <>Atlantic City <a href="https://what3words.com/film.client.darker" target="_blank" rel="noopener noreferrer" className="text-primary-10 hover:text-primary-11 underline">🌱📍///film.client.darker</a></>,
-    icon: Lucide.IconImage,
+    icon: "🌞",
     url: "https://github.com/flamrdevs/astrovehnt",
   },
   {
     title: "🛍️ PPP Dispensary",
     description: <>Atlantic City <a href="https://what3words.com/porch.descended.ties" target="_blank" rel="noopener noreferrer" className="text-primary-10 hover:text-primary-11 underline">🌱📍///porch.descended.ties</a></>,
-    icon: Lucide.IconImage,
+    icon: "🌞",
     url: "https://github.com/flamrdevs/astrobuckt",
   },
 ];
