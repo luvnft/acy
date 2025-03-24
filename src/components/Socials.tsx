@@ -1,20 +1,14 @@
 import { cn } from "./ui/utils.ts";
 import { Simple } from "./icons";
 
-// TODO : update socials
 const socials = [
   {
-    href: "https://github.com",
-    name: "GitHub",
-    icon: Simple.IconGitHub,
-  },
-  {
-    href: "https://x.com",
+    href: "https://x.com/weedw3w",
     name: "X",
     icon: Simple.IconX,
   },
   {
-    href: "https://www.youtube.com",
+    href: "https://www.youtube.com/zazaw3w",
     name: "Youtube",
     icon: Simple.IconYoutube,
   },
@@ -38,7 +32,7 @@ export default () => {
                   "focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-7 focus-visible:ring-offset-neutral-1"
                 )}
                 target="_blank"
-                aria-label="Open"
+                aria-label={`Open ${social.name}`}
               >
                 <social.icon className="transition size-1/3 text-neutral-10 group-hover:text-neutral-11 group-hover:scale-110 group-focus-visible:text-neutral-11 group-focus-visible:scale-110" />
               </a>
