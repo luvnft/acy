@@ -54,15 +54,15 @@ export default () => {
               )}
             >
               <div className="flex flex-row items-stretch gap-5 pl-2">
-                <div className="flex items-center justify-center">
-                  <stack.icon
-                    size={24}
-                    className="transition duration-300 group-hover:-translate-y-1 text-neutral-10 group-hover:text-neutral-11"
-                  />
+                <div className="flex items-center justify-center w-6">
+                  {/* Emoji from the name serves as the icon */}
+                  <span className="text-xl">{stack.name.match(/^\p{Emoji}+/u)?.[0]}</span>
                 </div>
 
                 <div>
-                  <h3 className="transition duration-300 group-hover:translate-x-1 text-neutral-12 text-sm">{stack.name}</h3>
+                  <h3 className="transition duration-300 group-hover:translate-x-1 text-neutral-12 text-sm">
+                    {stack.name.replace(/^\p{Emoji}+/u, '').trim()}
+                  </h3>
                   <div className="transition duration-300 group-hover:translate-x-px text-neutral-10 group-hover:text-neutral-11 text-xs">
                     {stack.category}
                   </div>
