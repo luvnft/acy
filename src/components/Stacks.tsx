@@ -5,47 +5,41 @@ import { Lucide, Simple } from "./icons";
 // TODO : update stacks
 const stacks = [
   {
-    name: "Figma",
-    category: "Design",
-    icon: Simple.IconFigma,
+    name: "🗺️ ZAP.",
+    category: "Live map of Dispensary sales.",
     url: "https://www.figma.com",
   },
   {
-    name: "Framer",
-    category: "Design",
-    icon: Simple.IconFramer,
+    name: "🤳 ZATV.",
+    category: "The TikTok of ZA WEEDW3W content.",
     url: "https://www.framer.com",
   },
   {
-    name: "Rive",
-    category: "Design",
-    icon: Simple.IconRive,
-    url: "https://rive.app",
+    name: "🪴 PRODUCTS.",
+    category: "Find all the info of WEEDW3W dispensary partner products.",
+    url: "https://products.weedw3w.com",
   },
   {
-    name: "Arc",
-    category: "Browser",
-    icon: Simple.IconArc,
-    url: "https://arc.net",
+    name: "🤖 STRAIN.",
+    category: "Ask AI about any strains.",
+    url: "https://strain.weedw3w.com",
   },
   {
-    name: "Notion",
-    category: "Productivity",
-    icon: Simple.IconNotion,
-    url: "https://www.notion.so",
+    name: "✍️ BLOG.",
+    category: "We create blogs as a WEEDW3W partner service.",
+    url: "https://blog.weedw3w.com",
   },
   {
-    name: "Calendly",
+    name: "🎮 NAME. GAME",
     category: "Calendar",
-    icon: Simple.IconCalendly,
-    url: "https://calendly.com",
+    url: "https://name.weedw3w.com/",
   },
 ];
 
 export default () => {
   return (
     <div>
-      <h2 className="font-medium text-xl mb-3">Stacks</h2>
+      <h2 className="font-medium text-xl mb-3">PORTALS</h2>
       <ul className="grid grid-cols-2 gap-3 p-1">
         {stacks.map((stack) => {
           return (
