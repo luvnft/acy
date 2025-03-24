@@ -2,23 +2,22 @@ import { IconButton } from "./ui";
 import { cn } from "./ui/utils.ts";
 import { Lucide } from "./icons";
 
-// TODO : update projects
 const projects = [
   {
-    title: "astrolinkt",
-    description: "Astro template",
+    title: "🛍️The Joint",
+    description: <>Maine <a href="https://w3w.co/open.octagon.partial" target="_blank" rel="noopener noreferrer" className="text-primary-10 hover:text-primary-11 underline">🌱📍///open.octagon.partial</a></>,
     icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrolinkt",
+    url: "https://thejoint.me",
   },
   {
-    title: "astrovehnt",
-    description: "Astro template",
+    title: "🛍️High Rollers Atlantic City Dispensary",
+    description: <>Atlantic City <a href="https://what3words.com/film.client.darker" target="_blank" rel="noopener noreferrer" className="text-primary-10 hover:text-primary-11 underline">🌱📍///film.client.darker</a></>,
     icon: Lucide.IconImage,
     url: "https://github.com/flamrdevs/astrovehnt",
   },
   {
-    title: "astrobuckt",
-    description: "Astro template",
+    title: "🛍️PPP Dispensary",
+    description: <>Atlantic City <a href="https://what3words.com/porch.descended.ties" target="_blank" rel="noopener noreferrer" className="text-primary-10 hover:text-primary-11 underline">w🌱📍///porch.descended.ties</a></>,
     icon: Lucide.IconImage,
     url: "https://github.com/flamrdevs/astrobuckt",
   },
@@ -27,7 +26,7 @@ const projects = [
 export default () => {
   return (
     <div>
-      <h2 className="font-medium text-xl mb-3">Projects</h2>
+      <h2 className="font-medium text-xl mb-3">Partners</h2>
       <ul className="grid grid-cols-1 gap-3 p-1">
         {projects.map((project) => {
           return (
