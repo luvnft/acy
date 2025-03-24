@@ -16,8 +16,9 @@ export default () => {
       </div>
 
       <div>
-        TREE is the first page of the WEEDW3W metaverse of portals to branches of Dispensary TREES featuring their Z🅰️DDY merch and 🎦 LIVE.
-        Visit the 🧙🏼‍♂️ Wizard of Hahz on Telegram to onboard your 🏬 Dispensary and drive 🦶🏻🦶🏻 foot traffic today.
+        TREE is the flagship portal of the WEEDW3W metaverse, connecting users to Dispensary TREES branches featuring exclusive Z🅰️DDY merch
+        and real-time 🎦 LIVE event updates. Dispensaries can summon the 🧙🏼‍♂️ Wizard of Hahz on Telegram to onboard instantly and drive 🦶🏽🦶🏽 foot
+        traffic with paid ad campaigns.
       </div>
 
       <div className="flex self-stretch justify-end">
