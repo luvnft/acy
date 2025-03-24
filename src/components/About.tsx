@@ -12,20 +12,21 @@ export default () => {
         </Avatar>
 
         <div className="flex flex-col items-start gap-2">
-          <h1 className="font-medium text-lg lg:text-xl">flamrdevs</h1>
-          <h2 className="font-medium text-2xl lg:text-3xl">UI/UX designer</h2>
+          <h1 className="font-medium text-lg lg:text-3xl">TREE.</h1>
+          <h2 className="font-medium text-2xl lg:text-xl">ZA LINK-TREE</h2>
         </div>
       </div>
 
       <div>
-        I am a UI/UX designer from Indonesia, specializing in creating user-centric and visually appealing digital experiences. With a focus
-        on seamless and enjoyable interactions, I aim to enhance the overall user experience through strategic design solutions.
+        TREE is the gateway to the WEEDW3W 🌌 metaverse, connecting you to Dispensary subdomain TREES (e.g., thejoint.weedw3w.com).
+        Featuring Z🅰️DDY merch, branded TikTok and IG Z🅰️R (ZA AR) Effects, 👻 Dispensary Phantom wallet address, 🎦 LIVE.
+        flash sales & event dates. Go see the 🧙🏼‍♂️ to onboard your dispensary.
       </div>
 
       <div className="flex self-stretch justify-end">
-        <Button as="a" href="https://github.com/flamrdevs/astrolinkt" target="_blank" aria-label="GitHub">
-          <Simple.IconGitHub />
-          GitHub
+        <Button as="a" href="https://t.me/hahznft" target="_blank" aria-label="GitHub">
+          {/* Replace GitHub icon and text with emojis */}
+          <span className="text-xl">🧙🏼‍♂️ Wizard of Hahz</span>
         </Button>
       </div>
     </div>
