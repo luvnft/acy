@@ -10,7 +10,7 @@ export default () => {
         </Avatar>
 
         <div className="flex flex-col items-start gap-2">
-          <h1 className="font-medium text-lg lg:text-3xl">TREE.</h1>
+          <h1 className="font-medium text-lg lg:text-3xl">🌴 TREE.</h1>
           <h2 className="font-medium text-2xl lg:text-xl">ZA LINK-TREE</h2>
         </div>
       </div>
