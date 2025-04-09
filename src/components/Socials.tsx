@@ -3,12 +3,12 @@ import { Simple } from "./icons";
 
 const socials = [
   {
-    href: "https://x.com/weedw3w",
+    href: "https://x.com/disposocial",
     name: "X",
     icon: Simple.IconX,
   },
   {
-    href: "https://www.youtube.com/zazaw3w",
+    href: "https://www.youtube.com/disposocial",
     name: "Youtube",
     icon: Simple.IconYoutube,
   },

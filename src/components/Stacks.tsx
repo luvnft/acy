@@ -7,17 +7,17 @@ const stacks = [
   {
     name: "🗺️ ZAP.",
     category: "Live map of Dispensary sales.",
-    url: "https://www.figma.com",
+    url: "https://zap.dispo.social",
   },
   {
     name: "🤳 ZATV.",
     category: "The ZA TikTok",
-    url: "https://www.framer.com",
+    url: "https://zatv.dispo.social",
   },
   {
     name: "🪴 PRODUCTS.",
-    category: "WEEDW3W dispensary partner products",
-    url: "https://products.weedw3w.com",
+    category: "DISPO.SOCIAL dispensary products",
+    url: "https://products.dispo.social",
   },
   {
     name: "🤖 STRAIN.",
@@ -26,13 +26,13 @@ const stacks = [
   },
   {
     name: "✍️ BLOG.",
-    category: "WEEDW3W Blogs",
+    category: "DISPO.SOCIAL Blogs",
     url: "https://blog.weedw3w.com",
   },
   {
     name: "🎮 NAME. GAME",
     category: "Weed name guessing game",
-    url: "https://name.weedw3w.com/",
+    url: "https://name.dispo.social",
   },
 ];
 
