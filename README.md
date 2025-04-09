@@ -1,4 +1,4 @@
-# astrolinkt
+# ZATREE
 
 Link in Bio Template using Astro, React & TailwindCSS
 
@@ -68,7 +68,7 @@ Set light / Dark mode by the html data attibute
 
 ## Author
 
-astrolinkt developed by [flamrdevs](https://github.com/flamrdevs)
+ZATREE developed by [WIZARD OF HAHZ](https://github.com/wizardofhahz)
 
 ## License
 

@@ -15,15 +15,49 @@ export default () => {
         </div>
       </div>
 
-      <div>
-        TREE is the flagship portal of the WEEDW3W metaverse, connecting users to Dispensary TREES branches featuring exclusive Z🅰️DDY merch
-        and real-time 🎦 LIVE event updates. Dispensaries can summon the 🧙🏼‍♂️ Wizard of Hahz on Telegram to onboard instantly and drive 🦶🏽🦶🏽 foot
-        traffic with paid ad campaigns.
+      <div className="flex flex-col gap-3 text-lg">
+        <p>ZATREE is the gateway to the DISPO.SOCIAL metzaverse branded "link in bio" solution designed exclusively for:</p>
+        
+        <div className="flex items-start gap-3">
+          <span>🏬</span>
+          <span>Dispensaries to showcase dmerch (digital merchandise)</span>
+        </div>
+
+        <div className="flex items-start gap-3">
+          <span>💫</span>
+          <span>ZAFLUENCERS (cannabis creators) to monetize their followers with ZANIME cards</span>
+        </div>
+
+        <p className="mt-4">✨ <strong>Instant Onboarding:</strong></p>
+        <p>Summon the 🧙🏼‍♂️ <strong>Wizard of Hahz</strong> on Telegram to:</p>
+
+        <div className="flex items-start gap-3">
+          <span>🔗</span>
+          <span>Claim your custom ZATREE</span>
+        </div>
+
+        <div className="flex items-start gap-3">
+          <span>📢</span>
+          <span>Launch paid ad campaigns</span>
+        </div>
+
+        <div className="flex items-start gap-3">
+          <span>🦶🏽🦶🏽</span>
+          <span>Drive real foot traffic to your dispensary with a dvent</span>
+        </div>
       </div>
 
       <div className="flex self-stretch justify-end">
-        <Button as="a" href="https://t.me/hahznft" target="_blank" aria-label="GitHub">
-          <span className="text-xl">🧙🏼‍♂️ Wizard of Hahz</span>
+        <Button 
+          as="a" 
+          href="https://t.me/hahznft" 
+          target="_blank" 
+          aria-label="Contact Wizard of Hahz on Telegram"
+          className="bg-purple-600 hover:bg-purple-700 transition-colors"
+        >
+          <span className="text-xl flex items-center gap-2">
+            🧙🏼‍♂️ Wizard of Hahz
+          </span>
         </Button>
       </div>
     </div>
