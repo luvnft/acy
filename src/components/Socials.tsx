@@ -3,12 +3,12 @@ import { Simple } from "./icons";
 
 const socials = [
   {
-    href: "https://x.com/disposocial",
+    href: "https://x.com/atl5d",
     name: "X",
     icon: Simple.IconX,
   },
   {
-    href: "https://www.youtube.com/disposocial",
+    href: "https://www.youtube.com/atlverse",
     name: "Youtube",
     icon: Simple.IconYoutube,
   },
@@ -17,7 +17,7 @@ const socials = [
 export default () => {
   return (
     <div>
-      <h2 className="font-medium text-xl mb-3">🌌 SOCIALS</h2>
+      <h2 className="font-medium text-xl mb-3">📲 SOCIALS</h2>
       <ul className="flex items-center justify-center gap-3 p-1">
         {socials.map((social) => {
           return (

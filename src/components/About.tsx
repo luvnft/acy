@@ -10,42 +10,38 @@ export default () => {
         </Avatar>
 
         <div className="flex flex-col items-start gap-2">
-          <h1 className="font-medium text-lg lg:text-3xl">🌴 TREE.</h1>
-          <h2 className="font-medium text-2xl lg:text-xl">ZA LINK-TREE</h2>
+          <h1 className="font-medium text-lg lg:text-3xl">ATL5D</h1>
+          <h2 className="font-medium text-2xl lg:text-xl">🅰️TL 🔗 link in bio</h2>
         </div>
       </div>
 
-      <div className="flex flex-col gap-3 text-lg">
-        <p>ZATREE is the gateway to the DISPO.SOCIAL metzaverse branded "link in bio" solution designed exclusively for:</p>
-        
-        <div className="flex items-start gap-3">
-          <span>🏬</span>
-          <span>Dispensaries to showcase dmerch (digital merchandise)</span>
-        </div>
+      <div className="flex flex-col gap-3">
+  <p className="font-bold">Digital Ad Campaigns:</p>
+  
+  <div className="flex items-start gap-3">
+    <span>🔗</span>
+    <span>Add a link ✅</span>
+  </div>
 
-        <div className="flex items-start gap-3">
-          <span>💫</span>
-          <span>ZAFLUENCERS (cannabis creators) to monetize their followers with ZANIME cards</span>
-        </div>
+  <div className="flex items-start gap-3">
+    <span>📢</span>
+    <span>Paid ATL5D post (TikTok, IG, FB, X)</span>
+  </div>
 
-        <p className="mt-4">✨ <strong>Instant Onboarding:</strong></p>
-        <p>Summon the 🧙🏼‍♂️ <strong>Wizard of Hahz</strong> on Telegram to:</p>
+  <div className="flex items-start gap-3">
+    <span>✨</span>
+    <span>Convert service/product to d-commerce to accept crypto</span>
+  </div>
 
-        <div className="flex items-start gap-3">
-          <span>🔗</span>
-          <span>Claim your custom ZATREE</span>
-        </div>
+  <div className="flex items-start gap-3">
+    <span>💫</span>
+    <span>Livestream event</span>
+  </div>
 
-        <div className="flex items-start gap-3">
-          <span>📢</span>
-          <span>Launch paid ad campaigns</span>
-        </div>
-
-        <div className="flex items-start gap-3">
-          <span>🦶🏽🦶🏽</span>
-          <span>Drive real foot traffic to your dispensary with a dvent</span>
-        </div>
-      </div>
+  <p className="mt-2">
+    🪄 Go see the 🧙🏼‍♂️ <strong>Wizard of Hahz</strong> on Telegram to get started.
+  </p>
+</div>
 
       <div className="flex self-stretch justify-end">
         <Button 
